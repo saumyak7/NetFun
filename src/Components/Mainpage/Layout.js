@@ -7,7 +7,7 @@ class Layout extends Component {
   }
   state = {};
   render() {
-    return <div className="mainpage_container">Middle</div>;
+    return <div className="mainpage_container">east</div>;
   }
 }
 
