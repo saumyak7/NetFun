@@ -53,9 +53,9 @@ class NavBar extends Component {
               <div className="navRight">
                 <Avatar
                   className="profile"
-                  src="https://w0.peakpx.com/wallpaper/338/405/HD-wallpaper-chhota-bheem-chutki-chota-cartoon-toon-jaggu-dholakpur-kalia.jpg"
+                  src="https://i.pinimg.com/originals/fd/99/42/fd99420bee2291f2bcc04babc467c3c8.png"
                 ></Avatar>
-                <div className="profilename"> Naveen</div>
+                <div className="profilename"> Bheem</div>
               </div>
             </div>
           </Grid>

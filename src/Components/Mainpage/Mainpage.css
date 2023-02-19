@@ -2,3 +2,22 @@
   background-color: #ededee;
   height: 650px;
 }
+
+.imageLayout_Container {
+  display: flex;
+  margin: 15px;
+}
+
+/* .imageLayout_imglay {
+} */
+
+.imageLayout_text {
+  font-weight: 500;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.imageLayout_img {
+  max-width: 35px;
+  max-height: 35px;
+}

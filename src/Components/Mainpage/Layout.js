@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Mainpage.css";
+import Grid from "@mui/material/Grid";
+import Leftside from "./Leftsidepanel/Leftside";
 
 class Layout extends Component {
   constructor(props) {
@@ -7,7 +9,21 @@ class Layout extends Component {
   }
   state = {};
   render() {
-    return <div className="mainpage_container">Middle</div>;
+    return (
+      <div className="mainpage_container">
+        <Grid container>
+          <Grid item xs={3}>
+            <Leftside />
+          </Grid>
+          <Grid item xs={6}>
+            Middle
+          </Grid>
+          <Grid item xs={3}>
+            Right
+          </Grid>
+        </Grid>
+      </div>
+    );
   }
 }
 
