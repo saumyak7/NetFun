@@ -1,0 +1,33 @@
+.Upload_cont {
+  height: 120px;
+  width: 600px;
+}
+.upload_top {
+  display: flex;
+}
+.upload_img {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.upload_text {
+  height: 40px;
+  width: 470px;
+  border: 0px;
+  background-color: #eff2f5;
+  border-radius: 15px;
+  padding-left: 40px;
+  margin: 15px;
+}
+
+.upload_down {
+  display: flex;
+  border-top: 1px;
+}
+
+.upload_tabs {
+  width: 150px;
+  display: flex;
+  margin-left: 40px;
+  padding-top: 5px;
+}

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./Mainpage.css";
 import Grid from "@mui/material/Grid";
 import Leftside from "./Leftsidepanel/Leftside";
+import StatusBar from "./StatusBar/StatusBar";
+import UploadSection from "./UploadSection/UploadSection";
 
 class Layout extends Component {
   constructor(props) {
@@ -15,8 +17,9 @@ class Layout extends Component {
           <Grid item xs={3}>
             <Leftside/>
           </Grid>
-          <Grid item xs={6}>
-            Middle
+          <Grid item xs={6} className = "middleCont">
+            <StatusBar/>
+             <UploadSection/>
           </Grid>
           <Grid item xs={3}>
             Right

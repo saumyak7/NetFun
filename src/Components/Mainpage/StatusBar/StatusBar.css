@@ -1,0 +1,20 @@
+.StatusBar_cont {
+  display: flex;
+  width: 600px;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.StatusBar_cont::-webkit-scrollbar {
+  display: none;
+}
+
+.StatusBar_Status {
+  height: 200px;
+  width: 110px;
+  margin: 20px 5px;
+  border-radius: 15px;
+  font-size: 16px;
+  padding-left: 0px;
+}
