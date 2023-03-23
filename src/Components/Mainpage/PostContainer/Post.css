@@ -1,0 +1,55 @@
+.post_header {
+  display: flex;
+}
+
+.post_img {
+  margin: 15px 5px 15px 15px;
+}
+
+.post_name {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.post_description {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.post_img_feed {
+  margin: 10px 0px;
+}
+.likecount_cont {
+  display: flex;
+  height: 30px;
+  border-bottom: 1px solid #cdd0d4;
+}
+.like_img {
+  padding: 0px 5px;
+  height: 20px;
+}
+.like_count {
+  font-size: small;
+  font-weight: 600;
+}
+
+.post_tabs {
+  display: flex;
+  width: 200px;
+}
+
+.post_likeshare {
+  display: flex;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.likebutton_img {
+  width: 30px;
+}
+
+.likebutton_text {
+  margin: 5px;
+}

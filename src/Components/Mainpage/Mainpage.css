@@ -22,6 +22,15 @@
   max-height: 35px;
 }
 
-.middleCont{
-  margin-left: 50px !important;
+.middleCont {
+  margin-left: 30px !important;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 650px;
+  max-width: 600px !important;
+}
+
+.middleCont::-webkit-scrollbar {
+  display: none;
 }

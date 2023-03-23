@@ -24,7 +24,7 @@ class UploadSection extends Component {
             <div>
               <input
                 className="upload_text"
-                placeholder="What's on you mind?"
+                placeholder="What's on your mind?"
                 type="text"
               />
             </div>

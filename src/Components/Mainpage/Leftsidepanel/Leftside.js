@@ -10,7 +10,6 @@ import ads from "../../../images/ads.png";
 import admanager from "../../../images/admanager.png";
 import blood from "../../../images/blood.png";
 
-
 class Leftside extends Component {
   constructor(props) {
     super(props);
@@ -22,40 +21,41 @@ class Leftside extends Component {
   getdata = () => {
     let jsondata = [
       {
-        "image": nobita,
-        "text" :  "Nobita"
+        image: nobita,
+        text: "Nobita",
       },
       {
-        "image": Covid,
-        "text": "Covid-19"
+        image: Covid,
+        text: "Covid-19",
       },
       {
-        "image": groups,
-        "text": "Friends"
+        image: groups,
+        text: "Friends",
       },
       {
-        "image": memories,
-        "text": "Memories"
+        image: memories,
+        text: "Memories",
       },
-       {
-         "image": messengerkids,
-         "text": "Messenger Kids"
-       },
-       {
-        "image": ads,
-        "text": "Ad Centre"
-       },
-       {
-        "image": admanager, blood,
-        "text": "Ads manager"
-       },
-       {
-        "image": blood,
-        "text": "Blood Donations"
-       }
+      {
+        image: messengerkids,
+        text: "Messenger Kids",
+      },
+      {
+        image: ads,
+        text: "Ad Centre",
+      },
+      {
+        image: admanager,
+        blood,
+        text: "Ads manager",
+      },
+      {
+        image: blood,
+        text: "Blood Donations",
+      },
     ];
     this.setState({ data: jsondata });
-  }
+  };
 
   componentDidMount() {
     this.getdata();
